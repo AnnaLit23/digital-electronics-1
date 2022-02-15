@@ -1,6 +1,5 @@
 # digital-electronics-1
-
-## Labs
+### Labs
 
 
 **sourse code**

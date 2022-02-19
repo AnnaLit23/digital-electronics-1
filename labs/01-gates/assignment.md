@@ -5,6 +5,9 @@
 1. Equations of all three versions of logic function f(c,b,a):
 
    ![image](https://user-images.githubusercontent.com/99733524/154655190-ce293109-2065-4112-8c19-46d33a976c44.png)
+   
+   
+   
 \begin{align*}
     f(c,b,a)_{\textup{ORG}} =&~ \overline{b}\,a + \overline{c}\,\overline{b}\\
     f(c,b,a)_{\textup{NAND}} =&\\

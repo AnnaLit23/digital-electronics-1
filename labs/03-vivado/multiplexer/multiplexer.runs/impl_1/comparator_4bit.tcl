@@ -123,7 +123,8 @@ set rc [catch {
   create_msg_db init_design.pb
   set_param chipscope.maxJobs 1
 OPTRACE "create in-memory project" START { }
-  create_project -in_memory -part xc7k70tfbv676-1
+  create_project -in_memory -part xc7a50ticsg324-1L
+  set_property board_part digilentinc.com:nexys-a7-50t:part0:1.0 [current_project]
   set_property design_mode GateLvl [current_fileset]
   set_param project.singleFileAddWarning.threshold 0
 OPTRACE "create in-memory project" END { }
@@ -140,7 +141,7 @@ OPTRACE "read constraints: implementation" START { }
 OPTRACE "read constraints: implementation" END { }
 OPTRACE "add files" END { }
 OPTRACE "link_design" START { }
-  link_design -top comparator_4bit -part xc7k70tfbv676-1
+  link_design -top comparator_4bit -part xc7a50ticsg324-1L
 OPTRACE "link_design" END { }
 OPTRACE "gray box cells" START { }
 OPTRACE "gray box cells" END { }

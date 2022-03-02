@@ -72,7 +72,7 @@ proc create_report { reportName command } {
 OPTRACE "synth_1" START { ROLLUP_AUTO }
 set_param chipscope.maxJobs 1
 OPTRACE "Creating in-memory project" START { }
-create_project -in_memory -part xc7k70tfbv676-1
+create_project -in_memory -part xc7a50ticsg324-1L
 
 set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
@@ -81,6 +81,7 @@ set_property webtalk.parent_dir D:/Documents/Litovska_231581/digital-electronics
 set_property parent.project_path D:/Documents/Litovska_231581/digital-electronics-1/labs/03-vivado/multiplexer/multiplexer.xpr [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language VHDL [current_project]
+set_property board_part digilentinc.com:nexys-a7-50t:part0:1.0 [current_project]
 set_property ip_output_repo d:/Documents/Litovska_231581/digital-electronics-1/labs/03-vivado/multiplexer/multiplexer.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
@@ -102,7 +103,7 @@ set_param ips.enableIPCacheLiteLoad 1
 close [open __synthesis_is_running__ w]
 
 OPTRACE "synth_design" START { }
-synth_design -top comparator_4bit -part xc7k70tfbv676-1
+synth_design -top comparator_4bit -part xc7a50ticsg324-1L
 OPTRACE "synth_design" END { }
 
 

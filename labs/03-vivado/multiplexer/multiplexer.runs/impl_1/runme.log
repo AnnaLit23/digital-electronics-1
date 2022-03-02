@@ -1,0 +1,67 @@
+
+*** Running vivado
+    with args -log comparator_4bit.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source comparator_4bit.tcl -notrace
+
+
+
+****** Vivado v2020.1 (64-bit)
+  **** SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+  **** IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source comparator_4bit.tcl -notrace
+Command: link_design -top comparator_4bit -part xc7k70tfbv676-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xc7k70tfbv676-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1020.164 ; gain = 0.000
+INFO: [Project 1-479] Netlist was created with Vivado 2020.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [D:/Documents/Litovska_231581/digital-electronics-1/labs/03-vivado/multiplexer/multiplexer.srcs/constrs_1/new/nexys-a7-50t.xdc]
+CRITICAL WARNING: [Common 17-69] Command failed: 'L16' is not a valid site or package pin name. [D:/Documents/Litovska_231581/digital-electronics-1/labs/03-vivado/multiplexer/multiplexer.srcs/constrs_1/new/nexys-a7-50t.xdc:13]
+CRITICAL WARNING: [Common 17-69] Command failed: 'M13' is not a valid site or package pin name. [D:/Documents/Litovska_231581/digital-electronics-1/labs/03-vivado/multiplexer/multiplexer.srcs/constrs_1/new/nexys-a7-50t.xdc:14]
+CRITICAL WARNING: [Common 17-69] Command failed: 'R15' is not a valid site or package pin name. [D:/Documents/Litovska_231581/digital-electronics-1/labs/03-vivado/multiplexer/multiplexer.srcs/constrs_1/new/nexys-a7-50t.xdc:15]
+WARNING: [Vivado 12-584] No ports matched '[1]'. [D:/Documents/Litovska_231581/digital-electronics-1/labs/03-vivado/multiplexer/multiplexer.srcs/constrs_1/new/nexys-a7-50t.xdc:16]
+CRITICAL WARNING: [Common 17-69] Command failed: Site cannot be assigned to more than one port [D:/Documents/Litovska_231581/digital-electronics-1/labs/03-vivado/multiplexer/multiplexer.srcs/constrs_1/new/nexys-a7-50t.xdc:16]
+WARNING: [Vivado 12-584] No ports matched '[2]'. [D:/Documents/Litovska_231581/digital-electronics-1/labs/03-vivado/multiplexer/multiplexer.srcs/constrs_1/new/nexys-a7-50t.xdc:17]
+CRITICAL WARNING: [Common 17-69] Command failed: Site cannot be assigned to more than one port [D:/Documents/Litovska_231581/digital-electronics-1/labs/03-vivado/multiplexer/multiplexer.srcs/constrs_1/new/nexys-a7-50t.xdc:17]
+CRITICAL WARNING: [Common 17-69] Command failed: 'U18' is not a valid site or package pin name. [D:/Documents/Litovska_231581/digital-electronics-1/labs/03-vivado/multiplexer/multiplexer.srcs/constrs_1/new/nexys-a7-50t.xdc:18]
+WARNING: [Vivado 12-584] No ports matched '[1]'. [D:/Documents/Litovska_231581/digital-electronics-1/labs/03-vivado/multiplexer/multiplexer.srcs/constrs_1/new/nexys-a7-50t.xdc:19]
+CRITICAL WARNING: [Common 17-69] Command failed: Site cannot be assigned to more than one port [D:/Documents/Litovska_231581/digital-electronics-1/labs/03-vivado/multiplexer/multiplexer.srcs/constrs_1/new/nexys-a7-50t.xdc:19]
+WARNING: [Vivado 12-584] No ports matched '[2]'. [D:/Documents/Litovska_231581/digital-electronics-1/labs/03-vivado/multiplexer/multiplexer.srcs/constrs_1/new/nexys-a7-50t.xdc:20]
+CRITICAL WARNING: [Common 17-69] Command failed: Site cannot be assigned to more than one port [D:/Documents/Litovska_231581/digital-electronics-1/labs/03-vivado/multiplexer/multiplexer.srcs/constrs_1/new/nexys-a7-50t.xdc:20]
+CRITICAL WARNING: [Common 17-69] Command failed: 'U8' is not a valid site or package pin name. [D:/Documents/Litovska_231581/digital-electronics-1/labs/03-vivado/multiplexer/multiplexer.srcs/constrs_1/new/nexys-a7-50t.xdc:21]
+WARNING: [Vivado 12-584] No ports matched '[1]'. [D:/Documents/Litovska_231581/digital-electronics-1/labs/03-vivado/multiplexer/multiplexer.srcs/constrs_1/new/nexys-a7-50t.xdc:22]
+CRITICAL WARNING: [Common 17-69] Command failed: Site cannot be assigned to more than one port [D:/Documents/Litovska_231581/digital-electronics-1/labs/03-vivado/multiplexer/multiplexer.srcs/constrs_1/new/nexys-a7-50t.xdc:22]
+WARNING: [Vivado 12-584] No ports matched '[2]'. [D:/Documents/Litovska_231581/digital-electronics-1/labs/03-vivado/multiplexer/multiplexer.srcs/constrs_1/new/nexys-a7-50t.xdc:23]
+CRITICAL WARNING: [Common 17-69] Command failed: Site cannot be assigned to more than one port [D:/Documents/Litovska_231581/digital-electronics-1/labs/03-vivado/multiplexer/multiplexer.srcs/constrs_1/new/nexys-a7-50t.xdc:23]
+CRITICAL WARNING: [Vivado 12-1815] Setting property 'IOSTANDARD' is not allowed for GT terminals. [D:/Documents/Litovska_231581/digital-electronics-1/labs/03-vivado/multiplexer/multiplexer.srcs/constrs_1/new/nexys-a7-50t.xdc:24]
+CRITICAL WARNING: [Common 17-69] Command failed: 'U12' is not a valid site or package pin name. [D:/Documents/Litovska_231581/digital-electronics-1/labs/03-vivado/multiplexer/multiplexer.srcs/constrs_1/new/nexys-a7-50t.xdc:25]
+WARNING: [Vivado 12-584] No ports matched '[0]'. [D:/Documents/Litovska_231581/digital-electronics-1/labs/03-vivado/multiplexer/multiplexer.srcs/constrs_1/new/nexys-a7-50t.xdc:37]
+CRITICAL WARNING: [Common 17-69] Command failed: Site cannot be assigned to more than one port [D:/Documents/Litovska_231581/digital-electronics-1/labs/03-vivado/multiplexer/multiplexer.srcs/constrs_1/new/nexys-a7-50t.xdc:37]
+WARNING: [Vivado 12-584] No ports matched '[1]'. [D:/Documents/Litovska_231581/digital-electronics-1/labs/03-vivado/multiplexer/multiplexer.srcs/constrs_1/new/nexys-a7-50t.xdc:38]
+CRITICAL WARNING: [Common 17-69] Command failed: Site cannot be assigned to more than one port [D:/Documents/Litovska_231581/digital-electronics-1/labs/03-vivado/multiplexer/multiplexer.srcs/constrs_1/new/nexys-a7-50t.xdc:38]
+WARNING: [Vivado 12-584] No ports matched '[2]'. [D:/Documents/Litovska_231581/digital-electronics-1/labs/03-vivado/multiplexer/multiplexer.srcs/constrs_1/new/nexys-a7-50t.xdc:39]
+CRITICAL WARNING: [Common 17-69] Command failed: Site cannot be assigned to more than one port [D:/Documents/Litovska_231581/digital-electronics-1/labs/03-vivado/multiplexer/multiplexer.srcs/constrs_1/new/nexys-a7-50t.xdc:39]
+Finished Parsing XDC File [D:/Documents/Litovska_231581/digital-electronics-1/labs/03-vivado/multiplexer/multiplexer.srcs/constrs_1/new/nexys-a7-50t.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1020.164 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+5 Infos, 9 Warnings, 16 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1020.164 ; gain = 0.000
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7k70t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7k70t'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.866 . Memory (MB): peak = 1020.164 ; gain = 0.000
+
+Starting Cache Timing Information Task

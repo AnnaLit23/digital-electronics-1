@@ -5,27 +5,7 @@ The Nexys A7 board provides two four-digit common anode seven-segment LED displa
 1. See [schematic](https://github.com/tomas-fryza/digital-electronics-1/blob/master/docs/nexys-a7-sch.pdf) or [reference manual](https://reference.digilentinc.com/reference/programmable-logic/nexys-a7/reference-manual) of the Nexys A7 board and find out the connection of 7-segment displays, ie to which FPGA pins are connected and how. Draw the schematic with 7-segment displays.
 ![image](https://user-images.githubusercontent.com/99733524/157399054-54a954e3-cfd0-4769-87b8-bdc85e3ddc8e.png)
 
-
-2. Complete the decoder truth table for **common anode** 7-segment display.
-
-   | **Hex** | **Inputs** | **A** | **B** | **C** | **D** | **E** | **F** | **G** |
-   | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-   | 0 | 0000 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
-   | 1 | 0001 | 1 | 0 | 0 | 1 | 1 | 1 | 1 |
-   | 2 | 0010 | 0 | 0 | 1 | 0 | 0 | 1 | 0 |
-   | 3 | 0011 | 0 | 0 | 0 | 0 | 1 | 1 | 0 |
-   | 4 | 0100 | 1 | 0 | 0 | 1 | 1 | 0 | 0 |
-   | 5 | 0101 | 0 | 1 | 0 | 0 | 1 | 0 | 0 |
-   | 6 | 0110 | 0 | 1 | 0 | 0 | 0 | 0 | 0 |
-   | 7 | 0111 | 0 | 0 | 0 | 1 | 1 | 1 | 1 |
-   | 8 | 1000 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-   | 9 | 1001 | 0 | 0 | 0 | 0 | 1 | 0 | 0 |
-   | A | 1010 | 0 | 0 | 0 | 1 | 0 | 0 | 0 |
-   | b | 1011 | 1 | 1 | 0 | 0 | 0 | 0 | 0 |
-   | C | 1100 | 0 | 1 | 1 | 0 | 0 | 0 | 1 |
-   | d | 1101 | 1 | 0 | 0 | 0 | 0 | 1 | 0 |
-   | E | 1110 | 0 | 1 | 1 | 0 | 0 | 0 | 0 |
-   | F | 1111 | 0 | 1 | 1 | 1 | 0 | 0 | 0 |
+![image](https://user-images.githubusercontent.com/99733524/157426124-300f2747-f9c6-48c0-a5e7-9a28975fe8c9.png)
 
    > ![https://lastminuteengineers.com/seven-segment-arduino-tutorial/](images/7-Segment-Display-Number-Formation-Segment-Contol.png)
    >
@@ -33,3 +13,4 @@ The Nexys A7 board provides two four-digit common anode seven-segment LED displa
    >
 
 <a name="part1"></a>
+![image](https://user-images.githubusercontent.com/99733524/157426206-62e73e33-39fd-4d2a-903d-30c248e7d936.png)

@@ -1,4 +1,4 @@
-Lab 4: Anna Litovska
+# Lab 4: Anna Litovska
 Seven-segment display decoder
 Listing of VHDL stimulus process from testbench file (tb_hex_7seg.vhd) with asserts. Verify all input combinations. Always use syntax highlighting, meaningful comments, and follow VHDL guidelines:
     p_stimulus : process
@@ -78,7 +78,7 @@ Listing of VHDL stimulus process from testbench file (tb_hex_7seg.vhd) with asse
 Screenshot with simulated time waveforms. Always display all inputs and outputs (display the inputs at the top of the image, the outputs below them) at the appropriate time scale!
 
 your figure
-
+![image](https://user-images.githubusercontent.com/99733524/157426124-300f2747-f9c6-48c0-a5e7-9a28975fe8c9.png)
 LED(7:4) indicators
 Listing of LEDs(7:4) part of VHDL architecture from source file top.vhd. Try to write logic functions as simple as possible. Always use syntax highlighting, meaningful comments, and follow VHDL guidelines:
 

@@ -1,6 +1,10 @@
 # Lab 4: Anna Litovska
-Seven-segment display decoder
-Listing of VHDL stimulus process from testbench file (tb_hex_7seg.vhd) with asserts. Verify all input combinations. Always use syntax highlighting, meaningful comments, and follow VHDL guidelines:
+
+### Seven-segment display decoder
+
+1. Listing of VHDL stimulus process from testbench file (`tb_hex_7seg.vhd`) with asserts. Verify all input combinations. Always use syntax highlighting, meaningful comments, and follow VHDL guidelines:
+
+```vhdl
     p_stimulus : process
     begin
         report "Stimulus process started" severity note;
@@ -11,7 +15,7 @@ Listing of VHDL stimulus process from testbench file (tb_hex_7seg.vhd) with asse
         report "Input combination 0000 FAILED" severity error;
 
 
-        s_hex <= "0001"; wait for 50 ns;
+       s_hex <= "0001"; wait for 50 ns;
         assert (s_seg = "1001111")
         report "Input combination 0000 FAILED" severity error;
         
@@ -75,24 +79,30 @@ Listing of VHDL stimulus process from testbench file (tb_hex_7seg.vhd) with asse
         report "Stimulus process finished" severity note;
         wait;
     end process p_stimulus;
-Screenshot with simulated time waveforms. Always display all inputs and outputs (display the inputs at the top of the image, the outputs below them) at the appropriate time scale!
+```
 
-your figure
-![image](https://user-images.githubusercontent.com/99733524/157426124-300f2747-f9c6-48c0-a5e7-9a28975fe8c9.png)
-LED(7:4) indicators
-Listing of LEDs(7:4) part of VHDL architecture from source file top.vhd. Try to write logic functions as simple as possible. Always use syntax highlighting, meaningful comments, and follow VHDL guidelines:
+2. Screenshot with simulated time waveforms. Always display all inputs and outputs (display the inputs at the top of the image, the outputs below them) at the appropriate time scale!
 
---------------------------------------------------------------------
--- Experiments on your own: LED(7:4) indicators
+ ![image](https://user-images.githubusercontent.com/99733524/157426206-62e73e33-39fd-4d2a-903d-30c248e7d936.png)
 
--- Turn LED(4) on if input value is equal to 0, ie "0000"
--- LED(4) <= `0` when WRITE YOUR CODE HERE
+### LED(7:4) indicators
 
--- Turn LED(5) on if input value is greater than "1001", ie 10, 11, 12, ...
--- LED(5) <= WRITE YOUR CODE HERE
+1. Listing of LEDs(7:4) part of VHDL architecture from source file `top.vhd`. Try to write logic functions as simple as possible. Always use syntax highlighting, meaningful comments, and follow VHDL guidelines:
 
--- Turn LED(6) on if input value is odd, ie 1, 3, 5, ...
--- LED(6) <= WRITE YOUR CODE HERE
+   ```vhdl
+   --------------------------------------------------------------------
+   -- Experiments on your own: LED(7:4) indicators
 
--- Turn LED(7) on if input value is a power of two, ie 1, 2, 4, or 8
--- LED(7) <= WRITE YOUR CODE HERE
+   -- Turn LED(4) on if input value is equal to 0, ie "0000"
+   -- LED(4) <= `0` when WRITE YOUR CODE HERE
+
+   -- Turn LED(5) on if input value is greater than "1001", ie 10, 11, 12, ...
+   -- LED(5) <= WRITE YOUR CODE HERE
+
+   -- Turn LED(6) on if input value is odd, ie 1, 3, 5, ...
+   -- LED(6) <= WRITE YOUR CODE HERE
+
+   -- Turn LED(7) on if input value is a power of two, ie 1, 2, 4, or 8
+   -- LED(7) <= WRITE YOUR CODE HERE
+   ```
+

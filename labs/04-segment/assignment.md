@@ -83,7 +83,6 @@
 
 2. Screenshot with simulated time waveforms. Always display all inputs and outputs (display the inputs at the top of the image, the outputs below them) at the appropriate time scale!
 
- ![image](https://user-images.githubusercontent.com/99733524/157426206-62e73e33-39fd-4d2a-903d-30c248e7d936.png)
  ![image](https://user-images.githubusercontent.com/99733524/158064123-bd513b92-3e3f-44fb-9163-71ebb57db83f.png)
 
 
@@ -96,13 +95,13 @@
    -- Experiments on your own: LED(7:4) indicators
 
    
-   -- LED(4) <= `1` when (s_hex = 0) else '0';
+    LED(4) <= `1` when (s_hex = 0) else '0';
    
-   -- LED(5) <= `1` when (s_hex > 10001) else '0';
+    LED(5) <= `1` when (s_hex > 10001) else '0';
 
-   -- LED(6) <= `1` when (s_hex(0) = 0) else '0';
+    LED(6) <= `1` when (s_hex(0) = 0) else '0';
 
-   -- LED(7) <= WRITE YOUR CODE HERE
+    
       case s_hex is
           when "0001" =>
                  LED(7) <= '1' 
